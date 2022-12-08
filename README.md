@@ -29,6 +29,21 @@ Sections é um recurso recente, pode usar tudo com divs, mas para uma melhor org
 
 ## CSS
 responśavel por estilizar dar forma visual aos elementos do HTML
+### Reset CSS
+Importante ter um reset CSS que retira atributos que o browser venha a atribuir aos elementos da página. Uma forma simples de fazer isso é usar como o exemplo abaixo:
+
+```CSS
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+```
+
+### Importando Fontes
+Uma boa dica e muito usada é importar suas fontes pelo Google Fonts.
+
+Ao escolher a fonte e os tamanhos que deseja, é gerado um modelo de como importar a fonte e como chamar o `font-family` dentro do elemento que está estilizando.
 
 ### JavaScript
 Linguagem de programação, para deixar a página dinâmica, manipulando eventos e animações.
