@@ -21,6 +21,12 @@ Sections e divs servem para fazer divisões no site, para ter melhor controle em
 
 Sections é um recurso recente, pode usar tudo com divs, mas para uma melhor organização usar sections, header, aside entre outros indica e facilita para que o browser organize o seu conteúdo.
 
+### Tags importantes para SEO e SMO
+- Bom site para gerar meta tags metatags.io.
+- SEO é otimização para buscadores na Web
+- SMO é otimização para buscas de site na rede social, então tudo aquilo que aparece como nome do site, imagem, descrição, isso é gerado pelo SMO.
+
+
 ## CSS
 responśavel por estilizar dar forma visual aos elementos do HTML
 
