@@ -146,7 +146,8 @@ e depois vai evoluindo.
 ### Exercício
 
 Estruturando um website responsivo.
-
+- style-resp.css
+- index-resp.html
 
 ## JavaScript
 Linguagem de programação, para deixar a página dinâmica, manipulando eventos e animações.
