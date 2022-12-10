@@ -39,11 +39,47 @@ Importante ter um reset CSS que retira atributos que o browser venha a atribuir 
     box-sizing: border-box;
 }
 ```
+### Ids e classes
+Id: é indicado para usar e selecionar no JavaScript, mas também no CSS conseguimos utilizar esse modo de selecionar. é indicado usar em elementos únicos na página.
+
+Modo de declarar um id:
+```CSS
+#paragrafo {
+    font-size: 10px;
+}
+```
+Classe: posso usar para vários elementos
+
+Modo de declarar uma classe:
+```CSS
+
+.teste {
+    color: red;
+}
+
+```
 
 ### Importando Fontes
 Uma boa dica e muito usada é importar suas fontes pelo Google Fonts.
 
 Ao escolher a fonte e os tamanhos que deseja, é gerado um modelo de como importar a fonte e como chamar o `font-family` dentro do elemento que está estilizando.
+
+### manipulando atributos
+é possível manipular pelo CSS um elemento pelo atributo sendo personalizado ou não
+
+No HTML podemos definir um atributo "name" para um tag `<p></p>` com o seu valor definido como "paragrafo":
+```HTML
+<!--este name na tag p, não existe no HTML ele acabou de ser criado-->
+<p name="paragrafo">Olá mundo</p>
+```
+
+Agora podemos selecionar esse atributo no CSS da seguinte forma:
+
+```CSS
+[name=paragrafo]{
+    color: blue;
+}
+```
 
 ### JavaScript
 Linguagem de programação, para deixar a página dinâmica, manipulando eventos e animações.
