@@ -80,7 +80,47 @@ Agora podemos selecionar esse atributo no CSS da seguinte forma:
     color: blue;
 }
 ```
+### Dimensões
+determinam o tamanho que um elemento ocupa na página e se esse elemento ocupa todo um espaço e até mesmo organiza.
 
-### JavaScript
+considerando a responsividade a altura de um elemento sempre é determinada de forma automática.
+
+### Alinhamento
+Considerando o uso de margin, padding.
+
+- **Padding:** para espaçamento interno dos elementos de um elemento.
+- **Margin:** expaçamento externo do elemento após a borda(Border). 
+### Flexbox
+Jeito moderno e simplificado do CSS resolver o alinhamento de elementos.
+
+Utilizado em desenvolvimento de aplicativos.
+ 
+### Exercício
+Formulário responsivo com CSS nos arquivos:
+- style-form.css
+- index.form.html
+
+### Variáveis no CSS
+
+Modo de como declarar uma variável no CSS:
+```CSS
+:root {
+    --corPadrao: blue;
+    --widthPadrao: 1100px;
+}
+```
+Dentro desse marcação `:root` coloque o nome da sua variável depois do `--`.
+
+Chamando uma variável como valor de um atributo:
+```CSS
+div {
+    background-color: var(--corPadrao);
+    max-width: var(--widthPadrao);
+    margin: 0 auto;
+}
+```
+Muito útil quando precisa replicar um mesmo valor ao longo da estilização da página e não sendo necessário mais a criação de uma classe para atribuir ao elemento no HTML e nem tendo o trabalho de replicar esse valor em todo o arquivo manualmente.
+
+## JavaScript
 Linguagem de programação, para deixar a página dinâmica, manipulando eventos e animações.
 

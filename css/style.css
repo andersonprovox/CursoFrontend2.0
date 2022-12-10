@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+:root {
+    --corPadrao: blue;
+    --widthPadrao: 1100px;
+}
+
+div {
+    background-color: var(--corPadrao);
+    max-width: var(--widthPadrao);
+    margin: 0 auto;
+}
+
 h2 {
     font-size: 17px;
     font-style: italic;
@@ -17,4 +28,9 @@ h2 {
 
 #paragrafo {
     font-size: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
 }
