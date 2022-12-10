@@ -32,5 +32,20 @@ h2 {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
+
+
+.box {
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+    background-color: aqua;
+}
+
+@media screen and (min-width: 768px) {
+    .box {
+        width: 33.3%;
+    }
+}
+

@@ -120,6 +120,33 @@ div {
 }
 ```
 Muito útil quando precisa replicar um mesmo valor ao longo da estilização da página e não sendo necessário mais a criação de uma classe para atribuir ao elemento no HTML e nem tendo o trabalho de replicar esse valor em todo o arquivo manualmente.
+## Design responsivo
+### Media queries
+São medidas que configuramos no css para que quando for exibido em telas específicas podemos alterar a organização dos elementos para trazer uma experiência visual agradável e usável para o usuário.
+
+```CSS
+@media screen and (max-width: 768px) {
+    .box {
+        width: 100%;
+    }
+}
+```
+Veja que na declaração acima está configurado para que quando a tela tiver no máximo 768 pixels, que seja alterada a largura do elemento ou elementos que contenham a classe box.
+
+para que funcione corretamente essa função com media queries devemos ter a seguinte meta tag na nossa página:
+```HTML
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+Na parte que está com `initial-scale=1.0`, estamos possibilitando a possibilidade de dar zoom em telas menores, se quiser desabilitar essa possibilidade ou colocar um limite no zoom é só atribuir `maximum-scale=1.0` e alterar o valor do limite máximo.
+
+### Mobile First
+Conceito em que ao modelar a sua página começa pensando em telas de celulares e tablets.
+e depois vai evoluindo.
+
+### Exercício
+
+Estruturando um website responsivo.
+
 
 ## JavaScript
 Linguagem de programação, para deixar a página dinâmica, manipulando eventos e animações.
